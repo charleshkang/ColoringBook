@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF68EDF01BA5F41F000EA812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EDEF1BA5F41F000EA812 /* main.m */; };
+		BF68EDF31BA5F41F000EA812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EDF21BA5F41F000EA812 /* AppDelegate.m */; };
+		BF68EDF61BA5F41F000EA812 /* BackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EDF51BA5F41F000EA812 /* BackgroundVC.m */; };
+		BF68EDF91BA5F41F000EA812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68EDF71BA5F41F000EA812 /* Main.storyboard */; };
+		BF68EDFB1BA5F41F000EA812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68EDFA1BA5F41F000EA812 /* Assets.xcassets */; };
+		BF68EDFE1BA5F41F000EA812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68EDFC1BA5F41F000EA812 /* LaunchScreen.storyboard */; };
+		BF68EE091BA5F41F000EA812 /* ColoringBookProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EE081BA5F41F000EA812 /* ColoringBookProtocolsTests.m */; };
+		BF68EE141BA5F41F000EA812 /* ColoringBookProtocolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EE131BA5F41F000EA812 /* ColoringBookProtocolsUITests.m */; };
+		BF68EE231BA5F91E000EA812 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68EE221BA5F91E000EA812 /* ColorPickerViewController.m */; };
+		BFB398DB1BA61603008F42AB /* CarlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB398DA1BA61603008F42AB /* CarlViewController.m */; };
+		BFB398DF1BA61624008F42AB /* AcessCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB398DE1BA61624008F42AB /* AcessCodeViewController.m */; };
+		BFEE0DE41BA6236800ED08E1 /* TextColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE0DE31BA6236800ED08E1 /* TextColorVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF68EE051BA5F41F000EA812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF68EDE31BA5F41F000EA812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF68EDEA1BA5F41F000EA812;
+			remoteInfo = ColoringBookProtocols;
+		};
+		BF68EE101BA5F41F000EA812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF68EDE31BA5F41F000EA812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF68EDEA1BA5F41F000EA812;
+			remoteInfo = ColoringBookProtocols;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF68EDEB1BA5F41F000EA812 /* ColoringBookProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringBookProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68EDEF1BA5F41F000EA812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF68EDF11BA5F41F000EA812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF68EDF21BA5F41F000EA812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF68EDF41BA5F41F000EA812 /* BackgroundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundVC.h; sourceTree = "<group>"; };
+		BF68EDF51BA5F41F000EA812 /* BackgroundVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundVC.m; sourceTree = "<group>"; };
+		BF68EDF81BA5F41F000EA812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF68EDFA1BA5F41F000EA812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF68EDFD1BA5F41F000EA812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF68EDFF1BA5F41F000EA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF68EE041BA5F41F000EA812 /* ColoringBookProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68EE081BA5F41F000EA812 /* ColoringBookProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringBookProtocolsTests.m; sourceTree = "<group>"; };
+		BF68EE0A1BA5F41F000EA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF68EE0F1BA5F41F000EA812 /* ColoringBookProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF68EE131BA5F41F000EA812 /* ColoringBookProtocolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringBookProtocolsUITests.m; sourceTree = "<group>"; };
+		BF68EE151BA5F41F000EA812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF68EE211BA5F91E000EA812 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		BF68EE221BA5F91E000EA812 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		BF68EE241BA60181000EA812 /* ColorPickerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewControllerDelegate.h; sourceTree = "<group>"; };
+		BFB398D91BA61603008F42AB /* CarlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarlViewController.h; sourceTree = "<group>"; };
+		BFB398DA1BA61603008F42AB /* CarlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarlViewController.m; sourceTree = "<group>"; };
+		BFB398DD1BA61624008F42AB /* AcessCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcessCodeViewController.h; sourceTree = "<group>"; };
+		BFB398DE1BA61624008F42AB /* AcessCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcessCodeViewController.m; sourceTree = "<group>"; };
+		BFEE0DE21BA6236800ED08E1 /* TextColorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextColorVC.h; sourceTree = "<group>"; };
+		BFEE0DE31BA6236800ED08E1 /* TextColorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextColorVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF68EDE81BA5F41F000EA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE011BA5F41F000EA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE0C1BA5F41F000EA812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF68EDE21BA5F41F000EA812 = {
+			isa = PBXGroup;
+			children = (
+				BF68EDED1BA5F41F000EA812 /* ColoringBookProtocols */,
+				BF68EE071BA5F41F000EA812 /* ColoringBookProtocolsTests */,
+				BF68EE121BA5F41F000EA812 /* ColoringBookProtocolsUITests */,
+				BF68EDEC1BA5F41F000EA812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF68EDEC1BA5F41F000EA812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF68EDEB1BA5F41F000EA812 /* ColoringBookProtocols.app */,
+				BF68EE041BA5F41F000EA812 /* ColoringBookProtocolsTests.xctest */,
+				BF68EE0F1BA5F41F000EA812 /* ColoringBookProtocolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF68EDED1BA5F41F000EA812 /* ColoringBookProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				BFB398DC1BA61609008F42AB /* Coloring Book Choices */,
+				BF68EDF11BA5F41F000EA812 /* AppDelegate.h */,
+				BF68EDF21BA5F41F000EA812 /* AppDelegate.m */,
+				BF68EDF41BA5F41F000EA812 /* BackgroundVC.h */,
+				BF68EDF51BA5F41F000EA812 /* BackgroundVC.m */,
+				BFEE0DE21BA6236800ED08E1 /* TextColorVC.h */,
+				BFEE0DE31BA6236800ED08E1 /* TextColorVC.m */,
+				BF68EE211BA5F91E000EA812 /* ColorPickerViewController.h */,
+				BF68EE221BA5F91E000EA812 /* ColorPickerViewController.m */,
+				BF68EE241BA60181000EA812 /* ColorPickerViewControllerDelegate.h */,
+				BF68EDF71BA5F41F000EA812 /* Main.storyboard */,
+				BF68EDFA1BA5F41F000EA812 /* Assets.xcassets */,
+				BF68EDFC1BA5F41F000EA812 /* LaunchScreen.storyboard */,
+				BF68EDFF1BA5F41F000EA812 /* Info.plist */,
+				BF68EDEE1BA5F41F000EA812 /* Supporting Files */,
+			);
+			path = ColoringBookProtocols;
+			sourceTree = "<group>";
+		};
+		BF68EDEE1BA5F41F000EA812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF68EDEF1BA5F41F000EA812 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF68EE071BA5F41F000EA812 /* ColoringBookProtocolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF68EE081BA5F41F000EA812 /* ColoringBookProtocolsTests.m */,
+				BF68EE0A1BA5F41F000EA812 /* Info.plist */,
+			);
+			path = ColoringBookProtocolsTests;
+			sourceTree = "<group>";
+		};
+		BF68EE121BA5F41F000EA812 /* ColoringBookProtocolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF68EE131BA5F41F000EA812 /* ColoringBookProtocolsUITests.m */,
+				BF68EE151BA5F41F000EA812 /* Info.plist */,
+			);
+			path = ColoringBookProtocolsUITests;
+			sourceTree = "<group>";
+		};
+		BFB398DC1BA61609008F42AB /* Coloring Book Choices */ = {
+			isa = PBXGroup;
+			children = (
+				BFB398D91BA61603008F42AB /* CarlViewController.h */,
+				BFB398DA1BA61603008F42AB /* CarlViewController.m */,
+				BFB398DD1BA61624008F42AB /* AcessCodeViewController.h */,
+				BFB398DE1BA61624008F42AB /* AcessCodeViewController.m */,
+			);
+			name = "Coloring Book Choices";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF68EDEA1BA5F41F000EA812 /* ColoringBookProtocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF68EE181BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocols" */;
+			buildPhases = (
+				BF68EDE71BA5F41F000EA812 /* Sources */,
+				BF68EDE81BA5F41F000EA812 /* Frameworks */,
+				BF68EDE91BA5F41F000EA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoringBookProtocols;
+			productName = ColoringBookProtocols;
+			productReference = BF68EDEB1BA5F41F000EA812 /* ColoringBookProtocols.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF68EE031BA5F41F000EA812 /* ColoringBookProtocolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF68EE1B1BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocolsTests" */;
+			buildPhases = (
+				BF68EE001BA5F41F000EA812 /* Sources */,
+				BF68EE011BA5F41F000EA812 /* Frameworks */,
+				BF68EE021BA5F41F000EA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF68EE061BA5F41F000EA812 /* PBXTargetDependency */,
+			);
+			name = ColoringBookProtocolsTests;
+			productName = ColoringBookProtocolsTests;
+			productReference = BF68EE041BA5F41F000EA812 /* ColoringBookProtocolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF68EE0E1BA5F41F000EA812 /* ColoringBookProtocolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF68EE1E1BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocolsUITests" */;
+			buildPhases = (
+				BF68EE0B1BA5F41F000EA812 /* Sources */,
+				BF68EE0C1BA5F41F000EA812 /* Frameworks */,
+				BF68EE0D1BA5F41F000EA812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF68EE111BA5F41F000EA812 /* PBXTargetDependency */,
+			);
+			name = ColoringBookProtocolsUITests;
+			productName = ColoringBookProtocolsUITests;
+			productReference = BF68EE0F1BA5F41F000EA812 /* ColoringBookProtocolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF68EDE31BA5F41F000EA812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Charles Kang ";
+				TargetAttributes = {
+					BF68EDEA1BA5F41F000EA812 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FP79X83Q3E;
+					};
+					BF68EE031BA5F41F000EA812 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FP79X83Q3E;
+						TestTargetID = BF68EDEA1BA5F41F000EA812;
+					};
+					BF68EE0E1BA5F41F000EA812 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FP79X83Q3E;
+						TestTargetID = BF68EDEA1BA5F41F000EA812;
+					};
+				};
+			};
+			buildConfigurationList = BF68EDE61BA5F41F000EA812 /* Build configuration list for PBXProject "ColoringBookProtocols" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF68EDE21BA5F41F000EA812;
+			productRefGroup = BF68EDEC1BA5F41F000EA812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF68EDEA1BA5F41F000EA812 /* ColoringBookProtocols */,
+				BF68EE031BA5F41F000EA812 /* ColoringBookProtocolsTests */,
+				BF68EE0E1BA5F41F000EA812 /* ColoringBookProtocolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF68EDE91BA5F41F000EA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF68EDFE1BA5F41F000EA812 /* LaunchScreen.storyboard in Resources */,
+				BF68EDFB1BA5F41F000EA812 /* Assets.xcassets in Resources */,
+				BF68EDF91BA5F41F000EA812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE021BA5F41F000EA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE0D1BA5F41F000EA812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF68EDE71BA5F41F000EA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB398DB1BA61603008F42AB /* CarlViewController.m in Sources */,
+				BF68EDF61BA5F41F000EA812 /* BackgroundVC.m in Sources */,
+				BFEE0DE41BA6236800ED08E1 /* TextColorVC.m in Sources */,
+				BF68EDF31BA5F41F000EA812 /* AppDelegate.m in Sources */,
+				BFB398DF1BA61624008F42AB /* AcessCodeViewController.m in Sources */,
+				BF68EE231BA5F91E000EA812 /* ColorPickerViewController.m in Sources */,
+				BF68EDF01BA5F41F000EA812 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE001BA5F41F000EA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF68EE091BA5F41F000EA812 /* ColoringBookProtocolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF68EE0B1BA5F41F000EA812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF68EE141BA5F41F000EA812 /* ColoringBookProtocolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF68EE061BA5F41F000EA812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF68EDEA1BA5F41F000EA812 /* ColoringBookProtocols */;
+			targetProxy = BF68EE051BA5F41F000EA812 /* PBXContainerItemProxy */;
+		};
+		BF68EE111BA5F41F000EA812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF68EDEA1BA5F41F000EA812 /* ColoringBookProtocols */;
+			targetProxy = BF68EE101BA5F41F000EA812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF68EDF71BA5F41F000EA812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF68EDF81BA5F41F000EA812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF68EDFC1BA5F41F000EA812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF68EDFD1BA5F41F000EA812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF68EE161BA5F41F000EA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF68EE171BA5F41F000EA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF68EE191BA5F41F000EA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBookProtocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF68EE1A1BA5F41F000EA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBookProtocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF68EE1C1BA5F41F000EA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookProtocolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBookProtocols.app/ColoringBookProtocols";
+			};
+			name = Debug;
+		};
+		BF68EE1D1BA5F41F000EA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookProtocolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBookProtocols.app/ColoringBookProtocols";
+			};
+			name = Release;
+		};
+		BF68EE1F1BA5F41F000EA812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoringBookProtocolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoringBookProtocols;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF68EE201BA5F41F000EA812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoringBookProtocolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.charleshkang.ColoringBookProtocolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoringBookProtocols;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF68EDE61BA5F41F000EA812 /* Build configuration list for PBXProject "ColoringBookProtocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68EE161BA5F41F000EA812 /* Debug */,
+				BF68EE171BA5F41F000EA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF68EE181BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68EE191BA5F41F000EA812 /* Debug */,
+				BF68EE1A1BA5F41F000EA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF68EE1B1BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68EE1C1BA5F41F000EA812 /* Debug */,
+				BF68EE1D1BA5F41F000EA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF68EE1E1BA5F41F000EA812 /* Build configuration list for PBXNativeTarget "ColoringBookProtocolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF68EE1F1BA5F41F000EA812 /* Debug */,
+				BF68EE201BA5F41F000EA812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF68EDE31BA5F41F000EA812 /* Project object */;
+}
